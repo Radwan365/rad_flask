@@ -36,9 +36,11 @@ docker compose down
 
 ## Project Structure
 
+```
 rad_flask/
-├── app.js # Node.js application
-├── package.json # Node.js dependencies
-├── dockerfile # Docker image instructions
+├── app.js              # Node.js application
+├── package.json        # Node.js dependencies
+├── dockerfile          # Docker image instructions
 ├── docker-compose.yaml # Multi-container setup
-└── .dockerignore # Files to exclude from Docker
+└── .dockerignore       # Files to exclude from Docker
+```
